@@ -38,19 +38,15 @@ const Header = () => {
             </HeaderTitle>
             <HeaderLinks>
                 <li>
-                    <Link to="/characters">Characters</Link>
-                </li>
-                <li>
-                    <UncontrolledDropdown group tabindex="0">
+                    <UncontrolledDropdown group tabIndex="0">
                         <DropdownToggle
                             caret
                             color="info"
-                            tag={'a'}
                         />
                         <DropdownMenu>
-                            <Link type="button" tabindex="0" role="menuitem" className="dropdown-item" to="houses/gryffindor">Gryffindor</Link>
-                            <Link type="button" tabindex="0" role="menuitem" className="dropdown-item" to="houses/hufflepuff">Hufflepuf</Link>
-                            <Link type="button" tabindex="0" role="menuitem" className="dropdown-item" to="houses/slytherin">Slytherin</Link>
+                            <Link type="button" tabIndex="0" role="menuitem" className="dropdown-item" to="houses/gryffindor">Gryffindor</Link>
+                            <Link type="button" tabIndex="0" role="menuitem" className="dropdown-item" to="houses/hufflepuff">Hufflepuf</Link>
+                            <Link type="button" tabIndex="0" role="menuitem" className="dropdown-item" to="houses/slytherin">Slytherin</Link>
                         </DropdownMenu>
                     </UncontrolledDropdown>
                 </li>

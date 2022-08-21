@@ -3,7 +3,7 @@
 import { useHttp } from "../components/hooks/http.hook";
 
 const useHpService = () => {
-    const _apiBase = "http://hp-api.herokuapp.com/api";
+    const _apiBase = "//hp-api.herokuapp.com/api";
 
     const { loading, request, error, clearError } = useHttp();
 

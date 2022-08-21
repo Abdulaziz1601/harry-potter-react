@@ -13,7 +13,7 @@ const App = () => {
 				</Container>
 				<main>
 					<Routes>
-						<Route exact path="/characters" element={<CharactersPage/>} />
+						<Route exact path="/" element={<CharactersPage/>} />
 						<Route 
 							exact path="/houses/:house"
 							element={<HousePage />}

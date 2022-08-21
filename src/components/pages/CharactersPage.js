@@ -8,7 +8,7 @@ import CharDetails from '../charDetails'
 
 
 const CharactersPage = () => {
-    const [randomChar, setRandomChar] = useState(false);
+    const [randomChar, setRandomChar] = useState(true);
     const [selectedChar, setSelectedChar] = useState(null);
     const [error, setError] = useState(false);
 
